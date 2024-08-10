@@ -1,0 +1,37 @@
+
+html{
+    font-family: iran sans;
+}
+header{
+    height: 75px;
+    background-color: darkgrey;
+}
+a{
+    color: black;
+}
+main{
+    text-align: center;
+    height: calc(80vh);
+    background-color: aquamarine;
+}
+footer{
+    height: calc(100vh-20px);
+    background-color: #181818;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "iran sans";
+    src: url(../assets/iran.woff);
+}
