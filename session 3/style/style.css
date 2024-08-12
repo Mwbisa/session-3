@@ -1,6 +1,6 @@
 
 html{
-    font-family: iran sans;
+    font-family: "iran sans";
 }
 header{
     height: 75px;
@@ -9,13 +9,19 @@ header{
 a{
     color: black;
 }
+#title{
+    padding-top: 3rem;
+}
+#txt{
+    padding: 1rem 3rem;
+}
 main{
     text-align: center;
-    height: calc(80vh);
+    height: calc(100vh - 155px) ;
     background-color: aquamarine;
 }
 footer{
-    height: calc(100vh-20px);
+    height: 80px;
     background-color: #181818;
     color: white;
 }
@@ -33,5 +39,5 @@ footer{
 
 @font-face {
     font-family: "iran sans";
-    src: url(../assets/iran.woff);
+    src: url("../assets/iran.woff");
 }
